@@ -217,16 +217,16 @@ Below are some empty tables to be used to normalize the database
 
 Table Name: Person
 
-|person_id | person_name|fenced_yard |city_dweller|
-|----------|------------|------------|------------|
-|1         |  Jane      | No         |Yes         |
-|2         |  Bob       |No          | No         |
-|3         | Sam        |Yes         | No         |
+|person_id | person_name|pet_quantity|
+|----------|------------|------------|
+|1         |Jane        |3           |
+|2         |Bob         |1           |
+|3         |Sam         |3           |
 
 
 Table Name: Pet Type
 
-| pet_id| pet_type|
+| pet_type_id| pet_type|
 |-------|---------|
 |1      |Fish     |
 |2      |Dog      |
@@ -234,29 +234,34 @@ Table Name: Pet Type
 |4      |Cat      |
 |5      |Turtle   |
 
-Table Name:
+Table Name: Pet Names
 
-|            |            |            |            |            |            |            |            |            |
-|------------|------------|------------|------------|------------|------------|------------|------------|------------|
-|            |            |            |            |            |            |            |            |            |
-|            |            |            |            |            |            |            |            |            |
-|            |            |            |            |            |            |            |            |            |
-|            |            |            |            |            |            |            |            |            |
-|            |            |            |            |            |            |            |            |            |
-|            |            |            |            |            |            |            |            |            |
-|            |            |            |            |            |            |            |            |            |
+|pet_id       |pet_name    |pet_type_id |
+|-------------|-----------|-------------|
+|1            |Ellie      |2            |
+|2            |Joe        |3            |
+|3            |Ginger     |2            |
+|4            |Tiger      |4            |
+|5            |Miss Kitty |4            |
+|6            |Toby       |5            |
+|7            |Bubble     |1            |
 
-Table Name:
+Table Name: Home Type
 
-|            |            |            |            |            |            |            |            |            |
-|------------|------------|------------|------------|------------|------------|------------|------------|------------|
-|            |            |            |            |            |            |            |            |            |
-|            |            |            |            |            |            |            |            |            |
-|            |            |            |            |            |            |            |            |            |
-|            |            |            |            |            |            |            |            |            |
-|            |            |            |            |            |            |            |            |            |
-|            |            |            |            |            |            |            |            |            |
-|            |            |            |            |            |            |            |            |            |
+|home_id  |home_type    |
+|---------|-------------|
+|1        |city dweller |
+|2        |fenced yard  |
+|3        |neither      |
+
+
+Table Name: Pet Quantity
+
+|person_id  |home_id     |pet_quantity |
+|-----------|------------|-------------|
+|1          |1           |3            |
+|2          |3           |1            |
+|3          |2           |3            |
 
 ---
 
