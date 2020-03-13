@@ -217,11 +217,11 @@ Below are some empty tables to be used to normalize the database
 
 Table Name: Person
 
-|person_id | person_name|pet_quantity|
-|----------|------------|------------|
-|1         |Jane        |3           |
-|2         |Bob         |1           |
-|3         |Sam         |3           |
+|person_id | person_name|
+|----------|------------|
+|1         |Jane        |
+|2         |Bob         |
+|3         |Sam         |
 
 
 Table Name: Pet Type
