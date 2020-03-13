@@ -215,29 +215,24 @@ Below are some empty tables to be used to normalize the database
 * Not all of the cells will contain data in the final solution
 * Feel free to edit these tables as necessary
 
-Table Name:
+Table Name: Person
 
-|            |            |            |            |            |            |            |            |            |
+|person_id        | person_name           |fenced_yard          |  city_dweller          |            |            |            |            |            |
 |------------|------------|------------|------------|------------|------------|------------|------------|------------|
-|            |            |            |            |            |            |            |            |            |
-|            |            |            |            |            |            |            |            |            |
-|            |            |            |            |            |            |            |            |            |
-|            |            |            |            |            |            |            |            |            |
-|            |            |            |            |            |            |            |            |            |
-|            |            |            |            |            |            |            |            |            |
-|            |            |            |            |            |            |            |            |            |
+|  1          |  Jane          | No          |Yes         |           |            |            |            |            |
+|2           |  Bob         |No          | No        |            |            |            |            |            |
+|3           | Sam         |Yes         | No         |            |            |            |            |            |
 
-Table Name:
 
-|            |            |            |            |            |            |            |            |            |
+Table Name: Pet Type
+
+| pet_id           | pet_type           |            |            |            |            |            |            |            |
 |------------|------------|------------|------------|------------|------------|------------|------------|------------|
-|            |            |            |            |            |            |            |            |            |
-|            |            |            |            |            |            |            |            |            |
-|            |            |            |            |            |            |            |            |            |
-|            |            |            |            |            |            |            |            |            |
-|            |            |            |            |            |            |            |            |            |
-|            |            |            |            |            |            |            |            |            |
-|            |            |            |            |            |            |            |            |            |
+|1         |Fish           |            |            |            |          |            |            |            |
+|2           |Dog         |            |            |            |            |            |            |            |
+|3           |Horse         |            |            |            |            |            |            |            |
+|4           |Cat         |            |            |            |            |            |            |            |
+|5           |Turtle      |            |            |            |            |            |            |            |
 
 Table Name:
 
