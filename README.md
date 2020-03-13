@@ -217,22 +217,22 @@ Below are some empty tables to be used to normalize the database
 
 Table Name: Person
 
-|person_id        | person_name           |fenced_yard          |  city_dweller          |            |            |            |            |            |
+|person_id        | person_name           |fenced_yard          |  city_dweller          |
 |------------|------------|------------|------------|------------|------------|------------|------------|------------|
-|  1          |  Jane          | No          |Yes         |           |            |            |            |            |
-|2           |  Bob         |No          | No        |            |            |            |            |            |
-|3           | Sam         |Yes         | No         |            |            |            |            |            |
+|1           |  Jane          | No          |Yes         
+|2           |  Bob         |No          | No        
+|3           | Sam         |Yes         | No         
 
 
 Table Name: Pet Type
 
-| pet_id           | pet_type           |            |            |            |            |            |            |            |
+| pet_id           | pet_type           |
 |------------|------------|------------|------------|------------|------------|------------|------------|------------|
-|1         |Fish           |            |            |            |          |            |            |            |
-|2           |Dog         |            |            |            |            |            |            |            |
-|3           |Horse         |            |            |            |            |            |            |            |
-|4           |Cat         |            |            |            |            |            |            |            |
-|5           |Turtle      |            |            |            |            |            |            |            |
+|1         |Fish          |
+|2           |Dog         |
+|3           |Horse       |
+|4           |Cat         |
+|5           |Turtle      |
 
 Table Name:
 
