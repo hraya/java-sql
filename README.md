@@ -234,7 +234,7 @@ Table Name: Pet Type
 |4      |Cat      |
 |5      |Turtle   |
 
-Table Name: Pet Names
+Table Name: Pet
 
 |pet_id       |pet_name    |pet_type_id |
 |-------------|-----------|-------------|
